@@ -21,9 +21,13 @@ input{
     display:flex;
     width:80%;
     border-radius:12px;
+    
 
 
 }
+
+        
+
 
                                                 
 .contenedor-pokemon {
@@ -33,6 +37,7 @@ input{
 
     gap:1rem;
     background-color:#f5f5f5;
+   padding-bottom: 19rem;
     
     
     
@@ -46,8 +51,10 @@ input{
       width:10vh;
       height: 10vh;
       border-radius:4px;
-    text-shadow: 2px, 3px, 4px, rgb(100, 95, 95);
+    text-shadow: 3px, 4px, 4px, rgb(100, 95, 95);
     padding: 1rem 0 0 1rem;
+    
+
    
    
 
