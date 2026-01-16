@@ -1,71 +1,91 @@
 .contenedor-principal {
-           
-        background-color:blue;
-       height:100vh;
-        padding-left:2rem;
-        
-        color:white;
-        font-weight:600px;
-       
 
-             
-}  
+      background-color: blue;
+      height: 100vh;
+      padding-left: 2rem;
+      padding-top: 1rem;
 
-.text-principal{
-       text-align:left;
-       padding-bottom: 2rem;
-       margin-left:2rem;
-}
+      margin:0;
+      font-weight: 600px;
 
-input{
-    display:flex;
-    width:80%;
-    border-radius:12px;
-    
 
 
 }
 
-        
+.text-principal {
+      text-align: left;
+      padding-bottom:2rem;
+      margin-left: 2rem;
+      color: white;
+}
+
+input {
+      display: flex;
+      width: 80%;
+      border-radius:2rem;
 
 
-                                                
+
+}
+
+.circulo {
+      display:flex;
+      flex-direction: row;
+      column-gap: 11px;
+}
+
+.radius{
+      color:#a82428;
+      width: 50px;
+      height:50px;
+      border-radius:50%;
+      background-color: aliceblue;
+      text-align:center;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+
+
 .contenedor-pokemon {
-    display:flex;
-    flex-direction: row;
-     flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
 
-    gap:1rem;
-    background-color:#f5f5f5;
-   padding-bottom: 19rem;
-    
-    
-    
+      gap: 1rem;
+      background-color: #f5f5f5;
+      padding-bottom: 0;
+      border-radius: 6px;
+
+
+
+
 }
-    
-    
-    
-     
+
+.pokemon {
+      background-image: linear-gradient(to bottom, white 50%, #DDE2E6 20%, #DDE2E6 50%);
+      margin-left: 6rem;
+      
+      padding: 1rem 1rem 1rem 1rem;
+
+}
 
 .pokemon img {
-      width:10vh;
+      width: 10vh;
       height: 10vh;
-      border-radius:4px;
-    text-shadow: 3px, 4px, 4px, rgb(100, 95, 95);
-    padding: 1rem 0 0 1rem;
-    
+      border-radius: 6px;
+       margin-top: 6px;
+       
 
-   
-   
 
-     
 }
+
 .pokemon p {
-      text-align:center;
-     
-      color:gray;
+      text-align: center;
+      margin-left: 28px;
+      color: gray;
 
-   
+
 }
-
-
